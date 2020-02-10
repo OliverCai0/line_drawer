@@ -77,7 +77,7 @@ def draw_line( x0, y0, x1, y1, screen, color ):
         d = -(2 * B) - A
         while y0 >= y1:
             plot(screen, color, int(x0), int(y0))
-            print(x0)
+            #print(x0)
             if d >= 0:
                 x0 = x0 + 1
                 d = d + 2 * A
